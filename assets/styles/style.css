@@ -1,0 +1,98 @@
+body {
+    min-width: 100%;
+    font-family: 'Work Sans', serif;
+
+}
+
+.header {
+    /* display: flex;
+    border: 1px solid purple;
+    margin-top: 41px;
+    margin-bottom: 2%; */
+    width: 1440px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+
+
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+
+}
+
+.nav1 {
+
+    display: flex;
+    justify-content: flex-start;
+    /* width: 40%; */
+
+}
+
+.nav2 {
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.link {
+
+
+    margin-left: 15%;
+    padding: 10%;
+
+
+}
+
+.link:hover {
+    color: thistle;
+}
+
+
+
+
+
+.h2 {
+    font-size: 40px;
+}
+
+.meet {
+    font-size: 18px;
+    color: #F46752;
+}
+
+.start {
+    display: flex;
+
+    width: 1440px;
+    margin: 0 auto;
+
+}
+
+.footer1 {
+    width: 30%;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
+
+}
+
+.textf {
+    font-size: 20px;
+}
