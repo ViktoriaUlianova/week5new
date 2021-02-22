@@ -18,17 +18,31 @@ a {
     color: black;
 }
 
-.logo {
-    margin: auto;
+/* .logo {
+    margin-right: 7%;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    line-height: 1, 06em;
 }
 
 .nav {
     display: flex;
 
-
+    padding-top: 41px;
+    padding-bottom: 44px;
     justify-content: space-between;
     align-content: center;
     width: 100%;
+
 
 }
 
@@ -36,7 +50,7 @@ a {
 
     display: flex;
     justify-content: flex-start;
-    /* width: 40%; */
+    width: 40%;
 
 }
 
@@ -44,14 +58,15 @@ a {
 
     display: flex;
     justify-content: flex-end;
-
+    width: 30%;
+    margin-right: 3%;
 }
 
 .link {
 
 
-    margin-left: 15%;
-    padding: 10%;
+    margin-left: 5%;
+    /* padding: 10%; */
 
 
 }
@@ -65,8 +80,27 @@ a {
 
 
 .h2 {
-    font-size: 40px;
+    font-size: 64px;
 }
+
+.min {
+    font-size: 22px;
+    margin-bottom: 40px;
+    color: #5A6482;
+}
+
+.btn {
+    color: white;
+    background: #F46752;
+    font-size: 16px;
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 21px 60px 20px 29px;
+    margin-top: 40px;
+
+}
+
 
 .meet {
     font-size: 18px;
